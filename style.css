@@ -27,6 +27,7 @@ img {
   width: 40%;
   height: 40%;
   border-radius: 50%;
+  cursor: pointer;
   /* margin-left: 20px; */
 }
 p {
@@ -50,4 +51,15 @@ h6 {
   border-radius: 5px;
   padding: 8px 60px;
   margin-bottom: 12px;
+}
+a:link,
+:visited {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+a:hover,
+a:active {
+  font-size: 20px;
+  color: hsl(75, 94%, 57%);
+  transition: all 0.3s;
 }
