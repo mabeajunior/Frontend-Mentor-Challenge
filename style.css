@@ -1,0 +1,53 @@
+body {
+  background-color: hsl(0, 0%, 8%);
+  font-family: "inter";
+  color: hsl(0, 0%, 100%);
+}
+.centrage {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.contenaire {
+  background-color: hsl(0, 0%, 12%);
+  width: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.imwe {
+  display: flex;
+  justify-content: center;
+}
+img {
+  margin-top: 20px;
+  width: 40%;
+  height: 40%;
+  border-radius: 50%;
+  /* margin-left: 20px; */
+}
+p {
+  font-size: 14px;
+  color: hsl(75, 94%, 57%);
+}
+h3 {
+  font-size: 24px;
+  line-height: 0.65;
+}
+h6 {
+  color: hsl(0, 1%, 33%);
+  line-height: 1.1;
+  letter-spacing: 1.2px;
+}
+.reseau {
+  margin-bottom: 20px;
+}
+.iden {
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 5px;
+  padding: 8px 60px;
+  margin-bottom: 12px;
+}
